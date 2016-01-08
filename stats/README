@@ -1,3 +1,17 @@
+About how many tiles are we speaking.
+
+To support various discussions on amount of tiles and the size of tilecaches
+I've attempted to create a Python script that makes these calculations
+for The Netherlands area. Both for EPSG:28992 (RD Geonovum/PDOK tiling scheme) and
+OSM/Google tiling scheme.
+
+Below is the output as on 8.jan.2016, based on average tilesize of
+16kB (JPEG tiles). Note that the highest resolution tiles, 1600pix/km, are appearing
+at zoomlevel 12 (res 0.84) for NL RD tiles and at zoomlevel 17 (res 1.94) for OSM/Google tiles.
+So a tilecache would be around 38GB resp 50GB.
+
+This is the output:
+
 TILES Dutch RD - EPSG:28992
 Grid coverage  [-285401.92, 22598.08, 595401.92, 903401.92]
 Tile coverage  [10000.0, 299995.559, 279997.956, 625000.0]
