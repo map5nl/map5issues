@@ -1,0 +1,49 @@
+TILES Dutch RD - EPSG:28992
+Grid coverage  [-285401.92, 22598.08, 595401.92, 903401.92]
+Tile coverage  [10000.0, 299995.559, 279997.956, 625000.0]
+Based on average tilesize 16.0 kB (JPEG)
+Seed area (m): len=269997.96 breed=325004.44 oppervlak=87750534760.92
+Kentallen en opslag
+zoom=0 res=3440.64 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=1 res=1720.32 tiles=1 (1x1) storage= 0.00 GB ( 0.00 GB total)
+zoom=2 res=860.16 tiles=2 (1x1) storage= 0.00 GB ( 0.00 GB total)
+zoom=3 res=430.08 tiles=8 (2x3) storage= 0.00 GB ( 0.00 GB total)
+zoom=4 res=215.04 tiles=29 (5x6) storage= 0.00 GB ( 0.00 GB total)
+zoom=5 res=107.52 tiles=116 (10x12) storage= 0.00 GB ( 0.00 GB total)
+zoom=6 res=53.76 tiles=464 (20x24) storage= 0.01 GB ( 0.01 GB total)
+zoom=7 res=26.88 tiles=1854 (39x47) storage= 0.03 GB ( 0.04 GB total)
+zoom=8 res=13.44 tiles=7413 (78x94) storage= 0.11 GB ( 0.15 GB total)
+zoom=9 res= 6.72 tiles=29651 (157x189) storage= 0.45 GB ( 0.60 GB total)
+zoom=10 res= 3.36 tiles=118602 (314x378) storage= 1.81 GB ( 2.41 GB total)
+zoom=11 res= 1.68 tiles=474408 (628x756) storage= 7.24 GB ( 9.65 GB total)
+zoom=12 res= 0.84 tiles=1897629 (1256x1511) storage=28.96 GB (38.61 GB total)
+zoom=13 res= 0.42 tiles=7590516 (2511x3023) storage=115.82 GB (154.43 GB total)
+zoom=14 res= 0.21 tiles=30362062 (5022x6045) storage=463.29 GB (617.72 GB total)
+zoom=15 res= 0.10 tiles=121448245 (10045x12091) storage=1853.15 GB (2470.87 GB total)
+zoom=16 res= 0.05 tiles=485792980 (20089x24182) storage=7412.61 GB (9883.48 GB total)
+
+TILES Web Mercator (Google/OSM) - EPSG:900913
+Grid coverage  [-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244]
+Tile coverage  [371363.93, 6563435.794, 809868.554, 7094049.501]
+Based on average tilesize 16.0 kB (JPEG)
+Seed area (m): len=438504.62 breed=530613.71 oppervlak=232676564077.28
+Kentallen en opslag
+zoom=0 res=156543.03 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=1 res=78271.52 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=2 res=39135.76 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=3 res=19567.88 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=4 res=9783.94 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=5 res=4891.97 tiles=1 (0x0) storage= 0.00 GB ( 0.00 GB total)
+zoom=6 res=2445.98 tiles=1 (1x1) storage= 0.00 GB ( 0.00 GB total)
+zoom=7 res=1222.99 tiles=3 (1x2) storage= 0.00 GB ( 0.00 GB total)
+zoom=8 res=611.49 tiles=10 (3x3) storage= 0.00 GB ( 0.00 GB total)
+zoom=9 res=305.75 tiles=38 (6x7) storage= 0.00 GB ( 0.00 GB total)
+zoom=10 res=152.87 tiles=152 (11x14) storage= 0.00 GB ( 0.00 GB total)
+zoom=11 res=76.44 tiles=608 (22x27) storage= 0.01 GB ( 0.01 GB total)
+zoom=12 res=38.22 tiles=2431 (45x54) storage= 0.04 GB ( 0.05 GB total)
+zoom=13 res=19.11 tiles=9723 (90x108) storage= 0.15 GB ( 0.20 GB total)
+zoom=14 res= 9.55 tiles=38891 (179x217) storage= 0.59 GB ( 0.79 GB total)
+zoom=15 res= 4.78 tiles=155563 (359x434) storage= 2.37 GB ( 3.17 GB total)
+zoom=16 res= 2.39 tiles=622251 (717x868) storage= 9.49 GB (12.66 GB total)
+zoom=17 res= 1.19 tiles=2489001 (1434x1735) storage=37.98 GB (50.64 GB total)
+zoom=18 res= 0.60 tiles=9954814 (2868x3471) storage=151.90 GB (202.54 GB total)
