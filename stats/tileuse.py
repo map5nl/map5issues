@@ -25,7 +25,7 @@ RD_SEED_AREA_M2 = float(RD_SEED_AREA_W_M * RD_SEED_AREA_H_M)
 # http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Zoom_levels
 WM_GRID_COVERAGE = [-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244]
 WM_RESOS = [156543.03, 78271.52, 39135.76, 19567.88, 9783.94, 4891.97, 2445.98, 1222.99, 611.49, 305.75, 152.874057,
-            76.4370283, 38.2185141, 19.1092571, 9.55462853, 4.77731427, 2.38865713, 1.19432857, 0.5972]
+            76.4370283, 38.2185141, 19.1092571, 9.55462853, 4.77731427, 2.38865713, 1.19432857, 0.5972, 0.2986, 0.1493]
 
 
 # Tiling area to seed (subarea of grid, otherwise too much sea).
@@ -52,6 +52,7 @@ def calc_tiles(grid_coverage, resos, seed_coverage, seed_area_width, seed_area_h
 
     storage_total = 0.0
     zoom = 0
+    p('zoom;res(m/px);tiles;tiles (wxh);storage @zoom (GB);storage total (GB)')
     for res in resos:
         pixels_x = seed_area_width / res
         pixels_y = seed_area_height / res
@@ -62,7 +63,7 @@ def calc_tiles(grid_coverage, resos, seed_coverage, seed_area_width, seed_area_h
 
         storage_level = tile_sz_gb * float(tiles_count)
         storage_total += storage_level
-        p('zoom=%d res=%5.2f tiles=%d (%s) storage=%5.2f GB (%5.2f GB total)' % (
+        p('%d;%5.2f;%d;%s;%5.2f;%5.2f' % (
             zoom, res, tiles_count, str(int(round(tiles_count_x))) + 'x' + str(int(round(tiles_count_y))), storage_level, storage_total))
         zoom += 1
 
