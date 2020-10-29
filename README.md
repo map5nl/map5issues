@@ -17,6 +17,4 @@ Ga naar de [Issue Tracker](https://github.com/map5nl/map5/issues) om fouten, pro
 en wensen voor map5.nl diensten en toepassingen aan te melden, en of in te zien.
 
 Betalende map5.nl klanten hebben daarnaast 
-nog een [forum voor ondersteuning](https://groups.google.com/forum/#!forum/map5nl).
-Deze is voor iedereen leesbaar, alleen betalende klanten kunnen daarin
-berichten sturen.
+nog een support email adres: support AT map5.nl.
